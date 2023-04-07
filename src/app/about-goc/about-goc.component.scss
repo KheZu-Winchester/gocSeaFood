@@ -1,0 +1,54 @@
+.elementor-icon-list-icon {
+    float: left;
+    padding-right: 15px;
+}
+.text-red{
+    color: #ef4746 !important;
+}
+.about-section p {
+    text-align: justify;
+}
+.page-title-section ul li:last-child a {
+    opacity: 0.65;
+}
+.page-title-section ul li a {
+    font-weight: 600;
+}
+.page-title-section h1 {
+    font-weight: 600;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: top;
+}
+@media screen and (min-width: 992px){
+    .ps-lg-1-9, .px-lg-1-9 {
+        padding-left: 1.9rem;
+    }
+}
+.z-index-9 {
+    z-index: 9;
+}
+.text-dark {
+    color: #002a5c !important;
+}
+.text-primary-hover:hover {
+    color: #ee421c !important;
+}
+
+
+[data-overlay-dark="6"]:before, [data-overlay-light="6"]:before {
+    opacity: 0.6;
+}
+.page-title-section ul :first-child :after {
+    text-align: center;
+    content: '';
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: #ee421c;
+    margin: 0 8px 0 15px;
+    display: inline-block;
+}
