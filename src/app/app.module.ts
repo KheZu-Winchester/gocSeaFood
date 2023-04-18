@@ -11,6 +11,14 @@ import { NgwWowModule } from 'ngx-wow';
 import { HomeComponent } from './home/home.component';
 import { SliderComponent } from './home/slider/slider.component';
 
+import { FishComponent } from './fish/fish.component';
+import { FishwaterfishesComponent } from './fishwaterfishes/fishwaterfishes.component';
+import { OtherSeafoodExportsComponent } from './other-seafood-exports/other-seafood-exports.component';
+import { SeawaterFishesComponent } from './seawater-fishes/seawater-fishes.component';
+import { PrawnsComponent } from './prawns/prawns.component';
+import { CrabsExportsComponent } from './crabs-exports/crabs-exports.component';
+
+
 
 @NgModule({
   declarations: [
@@ -20,8 +28,13 @@ import { SliderComponent } from './home/slider/slider.component';
     ShweGingaComponent,
     BlogModelComponent,
     HomeComponent,
-    SliderComponent
-    
+    SliderComponent,
+    FishComponent,
+    FishwaterfishesComponent,
+    OtherSeafoodExportsComponent,
+    SeawaterFishesComponent,
+    PrawnsComponent,
+    CrabsExportsComponent,
   ],
   imports: [
     BrowserModule,

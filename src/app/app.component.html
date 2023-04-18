@@ -1,7 +1,41 @@
-<!-- <app-home></app-home> -->
-<app-shwe-ginga></app-shwe-ginga>
+<div class="men-area">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top navbar-shrink" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand" href="#page-top">
+          <img id="logo" src="assets/Images/logo-inner.png" class="img-fluid" alt="logo">
+        </a>
+        <button class="navbar-toggler menu-opened" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span> 
+        </button> 
+        <div class="collapse navbar-collapse" id="nav" style="display:block;">
+            <ul class="navbar-nav ms-auto open text-uppercase ms-auto py-4 py-lg-0">
+                <li class="nav-item active" routerLink="/home" ><a class="nav-link">HOME</a></li>
+                <li class="nav-item" ><a class="nav-link"routerLink="/shwe-ginga">SHWE GINGA</a></li>
+                <li class="nav-item">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                    Our Products
+                  </a>
+                  <div class="dropdown-menu sub-menu">
+                    <a class="dropdown-item active" routerLink="/SeawaterFishes">Seawater Fishes</a>
+                    <a class="dropdown-item active" routerLink="/fishwaterfishes">Fish water Fishes</a>
+                    <a class="dropdown-item active" routerLink="/crabexports">Crab Excd ports</a>
+                    <a class="dropdown-item active" routerLink="/prawns">Prawns Exports</a>
+                    <a class="dropdown-item active" routerLink="/OtherSeafood">Our Other Seafood Exports</a>
+                  </div>
+                </li> 
+                <li class="nav-item"><a class="nav-link" routerLink="/about">ABOUT GOC</a></li>
+                <li class="nav-item"><a class="nav-link" routerLink="/contact">CONTACT</a></li>
+            </ul>
+        </div>
+        </div>
+  </nav>
+  </div>
+  <router-outlet></router-outlet>
+<!-- <app-shwe-ginga></app-shwe-ginga>
 <app-about-goc></app-about-goc>
-<app-contact></app-contact>
+<app-contact></app-contact> -->
+
+
 <footer class="footer2 bg-img theme-overlay-blue-dark py-5" data-overlay-dark="7">
   <div class="container py-3">
       <div class="row">
@@ -25,6 +59,8 @@
       </div>
   </div>
 </footer>
+
+
 <div>
     <!-- <a class="scroll-to-top" style="display: inline;" >
         <i class="fa-solid fa-angle-up"></i>
